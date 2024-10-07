@@ -17,7 +17,7 @@ submission: https://github.com/primez/umbrel-community-app-store
 repo: https://github.com/primez/umbrel-community-app-store
 support: https://github.com/primez/umbrel-community-app-store
 gallery:
-  - https://github.com/kieraneglin/pinchflat/blob/master/priv/static/images/app-screenshot.jpg
+  - https://raw.githubusercontent.com/kieraneglin/pinchflat/refs/heads/master/priv/static/images/app-screenshot.jpg
 releaseNotes: >-
   A first release of Pinchflat for Umbrel
 dependencies: []

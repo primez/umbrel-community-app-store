@@ -17,7 +17,7 @@ submission: https://github.com/primez/umbrel-community-app-store
 repo: https://github.com/primez/umbrel-community-app-store
 support: https://github.com/primez/umbrel-community-app-store
 gallery:
-  - 1.png
+  - https://raw.githubusercontent.com/primez/umbrel-community-app-store/refs/heads/master/primez-dozzle/1.png
 releaseNotes: >-
   A first release of Dozzle for Umbrel
 dependencies: []
