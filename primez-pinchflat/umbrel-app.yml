@@ -3,7 +3,7 @@ id: primez-pinchflat
 name: Pinchflat
 tagline: Your next YouTube media manager
 icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pinchflat.png
-category: media
+category: Media
 version: "Latest"
 port: 8945
 description: >-
