@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: primez-pinchflat_server_1
+      APP_PORT: 8096
+    
+  server:
+    image: ghcr.io/kieraneglin/pinchflat:latest
+    user: "1000:1000"
+    init: true
+    restart: on-failure
+    stop_grace_period: 30s
+    environment:
+      - LOG_LEVEL=warning
+    volumes:
+      - ${APP_DATA_DIR}/appdata/pinchflat:/config
+      - ${UMBREL_ROOT}/data/storage/downloads/youtube:/downloads
+      
