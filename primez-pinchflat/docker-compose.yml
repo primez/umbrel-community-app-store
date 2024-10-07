@@ -14,6 +14,7 @@ services:
     stop_grace_period: 30s
     environment:
       - LOG_LEVEL=warning
+      - TZ=${TZ:-UTC}
 
     volumes:
       - ${APP_DATA_DIR}/appdata:/config
