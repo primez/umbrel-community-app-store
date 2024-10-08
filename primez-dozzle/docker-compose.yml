@@ -1,11 +1,9 @@
-version: "3.7"
-
 services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: primez-dozzle_server_1
-      APP_PORT: 8082
+      APP_PORT: 8080
     
   server:
     image: amir20/dozzle:latest
@@ -16,8 +14,6 @@ services:
       DOZZLE_LEVEL: info
       DOZZLE_TAILSIZE: 300
       DOZZLE_FILTER: "status=running"
-    ports:
-      - "8082:8080"
     volumes:
      - /var/run/docker.sock:/var/run/docker.sock:ro
       
