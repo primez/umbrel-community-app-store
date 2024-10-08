@@ -4,7 +4,7 @@ name: Dozzle
 tagline: Real-time logging and monitoring for Docker in the browser
 icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/dozzle.png
 category: Developer Tools
-version: "Latest"
+version: "8.6.0"
 port: 8082
 description: >-
   Dozzle is an open-source project sponsored by Docker OSS. It is a log viewer designed to simplify monitoring and debugging containers. This lightweight, web-based application offers real-time log streaming, filtering, and searching capabilities through an intuitive user interface.

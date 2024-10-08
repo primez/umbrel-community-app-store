@@ -6,7 +6,7 @@ services:
       APP_PORT: 8945
     
   server:
-    image: ghcr.io/kieraneglin/pinchflat:latest
+    image: ghcr.io/kieraneglin/pinchflat:v2024.10.2
     init: true
     restart: on-failure
     stop_grace_period: 30s
